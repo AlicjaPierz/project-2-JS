@@ -1,0 +1,51 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#currency-title {
+  padding: 20px 0px;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+img {
+  padding: 0px 20px;
+}
+
+#currency-form {
+  width: 1000px;
+  height: auto;
+  padding: 20px 0px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select,
+button {
+  padding: 15px;
+  margin: 10px;
+  font-size: medium;
+}
+
+button {
+  font-weight: bold;
+}
+
+#currency-results {
+  padding: 15px;
+}
+
+#currency-res-text {
+  font-size: x-large;
+  font-weight: bold;
+}
